@@ -1,0 +1,12 @@
+{
+  "name": "labration2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Pontus Serrander <ps223qb@student.lnu.se>",
+  "license": "MIT"
+}
