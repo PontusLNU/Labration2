@@ -1,7 +1,7 @@
 /**
  * A class that converts weight between the metric and imperial systems.
  */
-export class weightConverter {
+export default class weightConverter {
 
   /**
    * Validate the input to ensure it is a number.
