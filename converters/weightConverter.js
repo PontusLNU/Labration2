@@ -5,6 +5,7 @@ export default class weightConverter {
 
   /**
    * Validate the input to ensure it is a number.
+   *
    * @param {number} input - The input to validate.
    * @throws {Error} - Throws an error if the input is not a number.
    */
@@ -26,7 +27,8 @@ export default class weightConverter {
   }
 
   /**
-   * 
+   * Converts a weight in pounds to kilograms.
+   *
    * @param {number} lbs - The weight in pounds to convert.
    * @returns {number} - The converted weight in kilograms.
    * @throws {Error} - Throws an error if the input is not a number.
