@@ -1,3 +1,6 @@
+/**
+ * A class that converts temperatures between celsius and fahrenheit.
+ */
 export default class temperatureConverter {
   /**
    * Validate the input to ensure it is a number.
