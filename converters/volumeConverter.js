@@ -1,3 +1,6 @@
+/**
+ * A class to convert volume from different units.
+ */
 export default class volumeConverter {
 
   /**
