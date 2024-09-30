@@ -33,7 +33,7 @@ export default class lengthConverter {
    * @returns {number} - The converted length in yards.
    * @throws {Error} - Throws an error if the input is not a number
    */
-  covertInchToYard(inch) {
+  convertInchToYard(inch) {
     this.validateInput(inch)
     return inch / 36
   }
