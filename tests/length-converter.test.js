@@ -1,4 +1,4 @@
-import LengthConverter from "../converters/lengthConverter.js"
+import LengthConverter from "../converters/length-converter.js"
 
 const lc = new LengthConverter()
 

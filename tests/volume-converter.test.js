@@ -1,4 +1,4 @@
-import VolumeConverter from "../converters/volumeConverter.js"
+import VolumeConverter from "../converters/volume-converter.js"
 
 const vc = new VolumeConverter()
 
