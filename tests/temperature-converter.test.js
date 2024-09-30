@@ -1,8 +1,8 @@
-import TemperatureConverter from "../converters/temperature-converter"
+import TemperatureConverter from '../converters/temperature-converter'
 
 const tc = new TemperatureConverter()
 
-describe('temperatureConverter class', () => {
+describe('TemperatureConverter class', () => {
   test('validateInput method should throw an error if the input is not a number', () => {
     expect(() => tc.validateInput('a')).toThrow('Input must be a number')
   })

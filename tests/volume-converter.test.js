@@ -1,8 +1,8 @@
-import VolumeConverter from "../converters/volume-converter.js"
+import VolumeConverter from '../converters/volume-converter.js'
 
 const vc = new VolumeConverter()
 
-describe("volumeConverter class", () => {
+describe('VolumeConverter class', () => {
   test('validateInput method should throw an error if the input is not a number', () => {
     expect(() => vc.validateInput('a')).toThrow('Input must be a number')
   })
