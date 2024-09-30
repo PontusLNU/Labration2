@@ -1,6 +1,6 @@
-import weightConverter from "../converters/weightConverter"
+import WeightConverter from "../converters/weightConverter"
 
-const wc = new weightConverter()
+const wc = new WeightConverter()
 
 describe("weightConverter class", () => {
   test("validateInput method should throw an error if the input is not a number", () => {

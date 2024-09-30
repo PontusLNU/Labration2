@@ -1,6 +1,6 @@
-import lengthConverter from "../converters/lengthConverter.js"
+import LengthConverter from "../converters/lengthConverter.js"
 
-const lc = new lengthConverter()
+const lc = new LengthConverter()
 
 describe("lengthConverter class", () => {
   test('validateInput method should throw an error if the input is not a number', () => {

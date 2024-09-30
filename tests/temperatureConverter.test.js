@@ -1,6 +1,6 @@
-import temperatureConverter from "../converters/temperatureConverter"
+import TemperatureConverter from "../converters/temperatureConverter"
 
-const tc = new temperatureConverter()
+const tc = new TemperatureConverter()
 
 describe('temperatureConverter class', () => {
   test('validateInput method should throw an error if the input is not a number', () => {

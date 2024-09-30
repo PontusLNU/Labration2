@@ -1,7 +1,7 @@
 /**
  * A class to convert volume from different units.
  */
-export default class volumeConverter {
+export default class VolumeConverter {
 
   /**
    * Validate the input to ensure it is a number.

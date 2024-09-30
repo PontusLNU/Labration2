@@ -1,7 +1,7 @@
 /**
  * A class to convert length from different units.
  */
-export default class lengthConverter {
+export default class LengthConverter {
   /**
    * Validate the input to ensure it is a number.
    *
