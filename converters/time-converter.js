@@ -33,7 +33,7 @@ export default class TimeConverter {
 
     const hours12 = formattedTime.slice(0, 2)
     const minutes = formattedTime.slice(2, 4)
-    const period = formattedTime.slice(4, 6)
+    const period = formattedTime.slice(4, 6).toUpperCase()
 
     if (!/^(AM|PM)$/i.test(period)) {
       throw new Error('Invalid time format, please provide a time in 12-hour format')
@@ -58,18 +58,17 @@ export default class TimeConverter {
   convert12HourTo24Hour(time) {
     const { hours12, minutes, period } = this.handle12HourInput(time)
 
-    const period24 = period.toUpperCase()
     let hours24 = parseInt(hours12)
 
-    if ( period24 === 'PM' && hours12 < 12) {
+    if ( period === 'PM' && hours12 < 12) {
       hours24 = hours24 + 12
     }
 
-    if ( period24 === 'AM' && hours12 == 12) {
+    if ( period === 'AM' && hours12 == 12) {
       hours24 = 0
     }
 
-    if ( period24 === 'AM' && hours24 < 10) {
+    if ( period === 'AM' && hours24 < 10) {
       hours24 = '0' + hours24
     }
 
