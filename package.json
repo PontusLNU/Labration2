@@ -5,7 +5,7 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "test": "node --experimental-vm-modules node_modules/.bin/jest"
+    "test": "node --experimental-vm-modules node_modules/.bin/jest --verbose"
   },
   "keywords": [],
   "author": "Pontus Serrander <ps223qb@student.lnu.se>",
