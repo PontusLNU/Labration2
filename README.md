@@ -17,7 +17,7 @@ convertFahrenheitToCelsius(32) will result in 0
 ## Weight converter
 Converts weight between kg and lbs rounded to two decimals.  
 Example:  
-convertKgToLbs(1) will result in 2.20462  
+convertKgToLbs(1) will result in 2.20  
 ## Volume converter
 Converts from litres to gallons and the other way around rounded to two decimals.  
 Example:  
