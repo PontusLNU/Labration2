@@ -1,4 +1,4 @@
-import WeightConverter from '../converters/weight-converter'
+import WeightConverter from '../src/converters/weight-converter'
 
 const weightConverter = new WeightConverter()
 

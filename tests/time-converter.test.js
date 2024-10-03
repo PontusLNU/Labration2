@@ -1,4 +1,4 @@
-import TimeConverter from '../converters/time-converter.js'
+import TimeConverter from '../src/converters/time-converter.js'
 
 const timeConverter = new TimeConverter()
 
