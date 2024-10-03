@@ -6,7 +6,7 @@ Length converter
 Temperature converter  
 Time converter  
 Volume converter  
-weight converter  
+Weight converter  
 
 Test includes validation of input data(arguments) sent to the methods which trows an error if the input data is not valid.  
 The tests also make sure that all the classes and their methods convert the data as it is intended to do.

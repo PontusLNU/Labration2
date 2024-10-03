@@ -127,51 +127,51 @@ describe('LengthConverter class', () => {
     expect(lengthConverter.convertCmToMile(160934.4)).toBe(1)
   })
   test('convertInchToM method should convert 39.3701 inches to 1 meter', () => {
-    expect(lengthConverter.convertInchToM(39.3701)).toBeCloseTo(1)
+    expect(lengthConverter.convertInchToM(39.3701)).toBe(1)
   })
   test('convertFootToM method should convert 3.28084 feet to 1 meter', () => {
-    expect(lengthConverter.convertFootToM(3.28084)).toBeCloseTo(1)
+    expect(lengthConverter.convertFootToM(3.28084)).toBe(1)
   })
   test('convertYardToM method should convert 1.09361 yards to 1 meter', () => {
-    expect(lengthConverter.convertYardToM(1.09361)).toBeCloseTo(1)
+    expect(lengthConverter.convertYardToM(1.09361)).toBe(1)
   })
   test('convertMileToM method should convert 0.000621371 miles to 1 meter', () => {
-    expect(lengthConverter.convertMileToM(0.000621371)).toBeCloseTo(1)
+    expect(lengthConverter.convertMileToM(0.000621371)).toBe(1)
   })
   test('convertMToInch method should convert 1 meter to 39.3701 inches', () => {
-    expect(lengthConverter.convertMToInch(1)).toBeCloseTo(39.3701)
+    expect(lengthConverter.convertMToInch(1)).toBe(39.37)
   })
   test('convertMToFoot method should convert 1 meter to 3.28084 feet', () => {
-    expect(lengthConverter.convertMToFoot(1)).toBeCloseTo(3.28084)
+    expect(lengthConverter.convertMToFoot(1)).toBe(3.28)
   })
   test('convertMToYard method should convert 1 meter to 1.09361 yards', () => {
-    expect(lengthConverter.convertMToYard(1)).toBeCloseTo(1.09361)
+    expect(lengthConverter.convertMToYard(1)).toBe(1.09)
   })
   test('convertMToMile method should convert 1609.34 meters to 1 mile', () => {
-    expect(lengthConverter.convertMToMile(1609.34)).toBeCloseTo(1)
+    expect(lengthConverter.convertMToMile(1609.34)).toBe(1)
   })
   test('convertInchToKm method should convert 39370.1 inches to 1 km', () => {
-    expect(lengthConverter.convertInchToKm(39370.1)).toBeCloseTo(1)
+    expect(lengthConverter.convertInchToKm(39370.1)).toBe(1)
   })
   test('convertFootToKm method should convert 3280.84 feet to 1 km', () => {
-    expect(lengthConverter.convertFootToKm(3280.84)).toBeCloseTo(1)
+    expect(lengthConverter.convertFootToKm(3280.84)).toBe(1)
   })
   test('convertYardToKm method should convert 1093.6133 yards to 1 km', () => {
-    expect(lengthConverter.convertYardToKm(1093.6133)).toBeCloseTo(1)
+    expect(lengthConverter.convertYardToKm(1093.6133)).toBe(1)
   })
   test('convertMileToKm method should convert 1 mile to 1.60934 km', () => {
-    expect(lengthConverter.convertMileToKm(1)).toBeCloseTo(1.60934)
+    expect(lengthConverter.convertMileToKm(1)).toBe(1.61)
   })
   test('convertKmToInch method should convert 1 km to 39370.078 inches', () => {
-    expect(lengthConverter.convertKmToInch(1)).toBeCloseTo(39370.078)
+    expect(lengthConverter.convertKmToInch(1)).toBe(39370.08)
   })
   test('convertKmToFoot method should convert 1 km to 3280.84 feet', () => {
-    expect(lengthConverter.convertKmToFoot(1)).toBeCloseTo(3280.84)
+    expect(lengthConverter.convertKmToFoot(1)).toBe(3280.84)
   })
   test('convertKmToYard method should convert 1 km to 1093.61 yards', () => {
-    expect(lengthConverter.convertKmToYard(1)).toBeCloseTo(1093.61)
+    expect(lengthConverter.convertKmToYard(1)).toBe(1093.61)
   })
   test('convertKmToMile method should convert 1 km to 0.621371 miles', () => {
-    expect(lengthConverter.convertKmToMile(1)).toBeCloseTo(0.621371)
+    expect(lengthConverter.convertKmToMile(1)).toBe(0.62)
   })
 })

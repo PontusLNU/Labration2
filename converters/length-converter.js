@@ -23,7 +23,8 @@ export default class LengthConverter {
    */
   convertInchToFoot(inch) {
     this.validateInput(inch)
-    return inch / 12
+    const foot = inch / 12
+    return parseFloat(foot.toFixed(2))
   }
 
   /**
@@ -35,7 +36,8 @@ export default class LengthConverter {
    */
   convertInchToYard(inch) {
     this.validateInput(inch)
-    return inch / 36
+    const yard = inch / 36
+    return parseFloat(yard.toFixed(2))
   }
 
   /**
@@ -47,7 +49,8 @@ export default class LengthConverter {
    */
   convertInchToMile(inch) {
     this.validateInput(inch)
-    return inch / 63360
+    const mile = inch / 63360
+    return parseFloat(mile.toFixed(2))
   }
 
   /**
@@ -59,7 +62,8 @@ export default class LengthConverter {
    */
   convertFootToInch(foot) {
     this.validateInput(foot)
-    return foot * 12
+    const inch = foot * 12
+    return parseFloat(inch.toFixed(2))
   }
 
   /**
@@ -71,7 +75,8 @@ export default class LengthConverter {
    */
   convertFootToYard(foot) {
     this.validateInput(foot)
-    return foot / 3
+    const yard = foot / 3
+    return parseFloat(yard.toFixed(2))
   }
 
   /**
@@ -83,7 +88,8 @@ export default class LengthConverter {
    */
   convertFootToMile(foot){
     this.validateInput(foot)
-    return foot / 5280
+    const mile = foot / 5280
+    return parseFloat(mile.toFixed(2))
   }
 
   /**
@@ -95,7 +101,8 @@ export default class LengthConverter {
    */
   convertYardToInch(yard) {
     this.validateInput(yard)
-    return yard * 36
+    const inch = yard * 36
+    return parseFloat(inch.toFixed(2))
   }
 
   /**
@@ -107,7 +114,8 @@ export default class LengthConverter {
    */
   convertYardToFoot(yard) {
     this.validateInput(yard)
-    return yard * 3
+    const foot = yard * 3
+    return parseFloat(foot.toFixed(2))
   }
 
   /**
@@ -119,7 +127,8 @@ export default class LengthConverter {
    */
   convertYardToMile(yard) {
     this.validateInput(yard)
-    return yard / 1760
+    const mile = yard / 1760
+    return parseFloat(mile.toFixed(2))
   }
 
   /**
@@ -131,7 +140,8 @@ export default class LengthConverter {
    */
   convertMileToInch(mile) {
     this.validateInput(mile)
-    return mile * 63360
+    const inch = mile * 63360
+    return parseFloat(inch.toFixed(2))
   }
 
   /**
@@ -143,7 +153,8 @@ export default class LengthConverter {
     */
   convertMileToFoot(mile) {
     this.validateInput(mile)
-    return mile * 5280
+    const foot = mile * 5280
+    return parseFloat(foot.toFixed(2))
   }
 
   /**
@@ -155,7 +166,8 @@ export default class LengthConverter {
    */
   convertMileToYard(mile) {
     this.validateInput(mile)
-    return mile * 1760
+    const yard = mile * 1760
+    return parseFloat(yard.toFixed(2))
   }
 
   /**
@@ -166,7 +178,8 @@ export default class LengthConverter {
    */
   convertMmToCm(mm) {
     this.validateInput(mm)
-    return mm / 10
+    const cm = mm / 10
+    return parseFloat(cm.toFixed(2))
   }
 
   /**
@@ -178,7 +191,8 @@ export default class LengthConverter {
    */
   convertMmToM(mm) {
     this.validateInput(mm)
-    return mm / 1000
+    const m = mm / 1000
+    return parseFloat(m.toFixed(2))
   }
 
   /**
@@ -190,7 +204,8 @@ export default class LengthConverter {
    */
   convertMmToKm(mm) {
     this.validateInput(mm)
-    return mm / 1000000
+    const km = mm / 1000000
+    return parseFloat(km.toFixed(2))
   }
 
   /**
@@ -202,7 +217,8 @@ export default class LengthConverter {
    */
   convertCmToMm(cm) {
     this.validateInput(cm)
-    return cm * 10
+    const mm = cm * 10
+    return parseFloat(mm.toFixed(2))
   }
 
   /**
@@ -214,7 +230,8 @@ export default class LengthConverter {
    */
   convertCmToM(cm) {
     this.validateInput(cm)
-    return cm / 100
+    const m = cm / 100
+    return parseFloat(m.toFixed(2))
   }
 
   /**
@@ -226,7 +243,8 @@ export default class LengthConverter {
    */
   convertCmToKm(cm) {
     this.validateInput(cm)
-    return cm / 100000
+    const km = cm / 100000
+    return parseFloat(km.toFixed(2))
   }
 
   /**
@@ -238,7 +256,8 @@ export default class LengthConverter {
    */
   convertMToMm(m) {
     this.validateInput(m)
-    return m * 1000
+    const mm = m * 1000
+    return parseFloat(mm.toFixed(2))
   }
 
   /**
@@ -250,7 +269,8 @@ export default class LengthConverter {
    */
   convertMToCm(m) {
     this.validateInput(m)
-    return m * 100
+    const cm = m * 100
+    return parseFloat(cm.toFixed(2))
   }
 
   /**
@@ -262,7 +282,8 @@ export default class LengthConverter {
    */
   convertMToKm(m) {
     this.validateInput(m)
-    return m / 1000
+    const km = m / 1000
+    return parseFloat(km.toFixed(2))
   }
 
   /**
@@ -274,7 +295,8 @@ export default class LengthConverter {
    */
   convertKmToMm(km) {
     this.validateInput(km)
-    return km * 1000000
+    const mm = km * 1000000
+    return parseFloat(mm.toFixed(2))
   }
 
   /**
@@ -286,7 +308,8 @@ export default class LengthConverter {
    */
   convertKmToCm(km) {
     this.validateInput(km)
-    return km * 100000
+    const cm = km * 100000
+    return parseFloat(cm.toFixed(2))
   }
 
   /**
@@ -298,7 +321,8 @@ export default class LengthConverter {
    */
   convertKmToM(km) {
     this.validateInput(km)
-    return km * 1000
+    const m = km * 1000
+    return parseFloat(m.toFixed(2))
   }
 
   /**
@@ -310,7 +334,8 @@ export default class LengthConverter {
    */
   convertInchToMm(inch) {
     this.validateInput(inch)
-    return inch * 25.4
+    const mm = inch * 25.4
+    return parseFloat(mm.toFixed(2))
   }
 
   /**
@@ -322,7 +347,8 @@ export default class LengthConverter {
    */
   convertFootToMm(foot) {
     this.validateInput(foot)
-    return foot * 304.8
+    const mm = foot * 304.8
+    return parseFloat(mm.toFixed(2))
   }
 
   /**
@@ -334,7 +360,8 @@ export default class LengthConverter {
    */
   convertYardToMm(yard) {
     this.validateInput(yard)
-    return yard * 914.4
+    const mm = yard * 914.4
+    return parseFloat(mm.toFixed(2))
   }
 
   /**
@@ -346,7 +373,8 @@ export default class LengthConverter {
    */
   convertMileToMm(mile) {
     this.validateInput(mile)
-    return mile * 1609344
+    const mm = mile * 1609344
+    return parseFloat(mm.toFixed(2))
   }
 
   /**
@@ -358,7 +386,8 @@ export default class LengthConverter {
    */
   convertMmToInch(mm) {
     this.validateInput(mm)
-    return mm / 25.4
+    const inch = mm / 25.4
+    return parseFloat(inch.toFixed(2))
   }
 
   /**
@@ -370,7 +399,8 @@ export default class LengthConverter {
    */
   convertMmToFoot(mm) {
     this.validateInput(mm)
-    return mm / 304.8
+    const foot = mm / 304.8
+    return parseFloat(foot.toFixed(2))
   }
 
   /**
@@ -382,7 +412,8 @@ export default class LengthConverter {
    */
   convertMmToYard(mm) {
     this.validateInput(mm)
-    return mm / 914.4
+    const yard = mm / 914.4
+    return parseFloat(yard.toFixed(2))
   }
 
   /**
@@ -394,7 +425,8 @@ export default class LengthConverter {
    */
   convertMmToMile(mm) {
     this.validateInput(mm)
-    return mm / 1609344
+    const mile = mm / 1609344
+    return parseFloat(mile.toFixed(2))
   }
 
   /**
@@ -406,7 +438,8 @@ export default class LengthConverter {
    */
   convertInchToCm(inch) {
     this.validateInput(inch)
-    return inch * 2.54
+    const cm = inch * 2.54
+    return parseFloat(cm.toFixed(2))
   }
 
   /**
@@ -418,7 +451,8 @@ export default class LengthConverter {
    */
   convertFootToCm(foot) {
     this.validateInput(foot)
-    return foot * 30.48
+    const cm = foot * 30.48
+    return parseFloat(cm.toFixed(2))
   }
 
   /**
@@ -430,7 +464,8 @@ export default class LengthConverter {
    */
   convertYardToCm(yard) {
     this.validateInput(yard)
-    return yard * 91.44
+    const cm = yard * 91.44
+    return parseFloat(cm.toFixed(2))
   }
 
   /**
@@ -442,7 +477,8 @@ export default class LengthConverter {
    */
   convertMileToCm(mile) {
     this.validateInput(mile)
-    return mile * 160934.4
+    const cm = mile * 160934.4
+    return parseFloat(cm.toFixed(2))
   }
 
   /**
@@ -454,7 +490,8 @@ export default class LengthConverter {
    */
   convertCmToInch(cm) {
     this.validateInput(cm)
-    return cm / 2.54
+    const inch = cm / 2.54
+    return parseFloat(inch.toFixed(2))
   }
 
   /**
@@ -466,7 +503,8 @@ export default class LengthConverter {
    */
   convertCmToFoot(cm) {
     this.validateInput(cm)
-    return cm / 30.48
+    const foot = cm / 30.48
+    return parseFloat(foot.toFixed(2))
   }
 
   /**
@@ -478,7 +516,8 @@ export default class LengthConverter {
    */
   convertCmToYard(cm) {
     this.validateInput(cm)
-    return cm / 91.44
+    const yard = cm / 91.44
+    return parseFloat(yard.toFixed(2))
   }
 
   /**
@@ -490,7 +529,8 @@ export default class LengthConverter {
    */
   convertCmToMile(cm) {
     this.validateInput(cm)
-    return cm / 160934.4
+    const mile = cm / 160934.4
+    return parseFloat(mile.toFixed(2))
   }
 
   /**
@@ -502,7 +542,8 @@ export default class LengthConverter {
    */
   convertInchToM(inch) {
     this.validateInput(inch)
-    return inch * 0.0254
+    const m = inch / 39.3701
+    return parseFloat(m.toFixed(2))
   }
 
   /**
@@ -514,7 +555,8 @@ export default class LengthConverter {
    */
   convertFootToM(foot) {
     this.validateInput(foot)
-    return foot * 0.3048
+    const m = foot / 3.28084
+    return parseFloat(m.toFixed(2))
   }
 
   /**
@@ -526,7 +568,8 @@ export default class LengthConverter {
    */
   convertYardToM(yard) {
     this.validateInput(yard)
-    return yard * 0.9144
+    const m = yard / 1.09361
+    return parseFloat(m.toFixed(2))
   }
 
   /**
@@ -538,7 +581,8 @@ export default class LengthConverter {
    */
   convertMileToM(mile) {
     this.validateInput(mile)
-    return mile * 1609.344
+    const m = mile / 0.000621371
+    return parseFloat(m.toFixed(2))
   }
 
   /**
@@ -550,7 +594,8 @@ export default class LengthConverter {
    */
   convertMToInch(m) {
     this.validateInput(m)
-    return m / 0.0254
+    const inch = m * 39.37
+    return parseFloat(inch.toFixed(2))
   }
 
   /**
@@ -562,7 +607,8 @@ export default class LengthConverter {
    */
   convertMToFoot(m) {
     this.validateInput(m)
-    return m / 0.3048
+    const foot = m * 3.28084
+    return parseFloat(foot.toFixed(2))
   }
 
   /**
@@ -574,7 +620,8 @@ export default class LengthConverter {
    */
   convertMToYard(m) {
     this.validateInput(m)
-    return m / 0.9144
+    const yard = m * 1.09361
+    return parseFloat(yard.toFixed(2))
   }
 
   /**
@@ -586,7 +633,8 @@ export default class LengthConverter {
    */
   convertMToMile(m) {
     this.validateInput(m)
-    return m / 1609.344
+    const mile = m * 0.000621371
+    return parseFloat(mile.toFixed(2))
   }
 
   /**
@@ -598,7 +646,8 @@ export default class LengthConverter {
    */
   convertInchToKm(inch) {
     this.validateInput(inch)
-    return inch * 0.0000254
+    const km = inch * 0.0000254
+    return parseFloat(km.toFixed(2))
   }
 
   /**
@@ -610,7 +659,8 @@ export default class LengthConverter {
    */
   convertFootToKm(foot) {
     this.validateInput(foot)
-    return foot * 0.0003048
+    const km = foot * 0.0003048
+    return parseFloat(km.toFixed(2))
   }
 
   /**
@@ -622,7 +672,8 @@ export default class LengthConverter {
    */
   convertYardToKm(yard) {
     this.validateInput(yard)
-    return yard * 0.0009144
+    const km = yard * 0.0009144
+    return parseFloat(km.toFixed(2))
   }
 
   /**
@@ -634,7 +685,8 @@ export default class LengthConverter {
    */
   convertMileToKm(mile) {
     this.validateInput(mile)
-    return mile * 1.609344
+    const km = mile * 1.609344
+    return parseFloat(km.toFixed(2))
   }
 
   /**
@@ -646,7 +698,8 @@ export default class LengthConverter {
    */
   convertKmToInch(km) {
     this.validateInput(km)
-    return km / 0.0000254
+    const inch = km / 0.0000254
+    return parseFloat(inch.toFixed(2))
   }
 
   /**
@@ -658,7 +711,8 @@ export default class LengthConverter {
    */
   convertKmToFoot(km) {
     this.validateInput(km)
-    return km / 0.0003048
+    const foot = km / 0.0003048
+    return parseFloat(foot.toFixed(2))
   }
 
   /**
@@ -670,7 +724,8 @@ export default class LengthConverter {
    */
   convertKmToYard(km) {
     this.validateInput(km)
-    return km / 0.0009144
+    const yard = km / 0.0009144
+    return parseFloat(yard.toFixed(2))
   }
 
   /**
@@ -682,6 +737,7 @@ export default class LengthConverter {
    */
   convertKmToMile(km) {
     this.validateInput(km)
-    return km / 1.609344
+    const mile = km / 1.609344
+    return parseFloat(mile.toFixed(2))
   }
 }
