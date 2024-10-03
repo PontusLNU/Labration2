@@ -24,7 +24,8 @@ export default class VolumeConverter {
    */
   convertGallonToLitre(gallon) {
     this.validateInput(gallon)
-    return gallon * 3.78541
+    const litre = gallon * 3.78541
+    return parseFloat(litre.toFixed(2))
   }
 
   /**
@@ -36,6 +37,7 @@ export default class VolumeConverter {
    */
   convertLitreToGallon(litre) {
     this.validateInput(litre)
-    return litre / 3.78541
+    const gallons = litre / 3.78541
+    return parseFloat(gallons.toFixed(2))
   }
 }

@@ -23,7 +23,8 @@ export default class TemperatureConverter {
    */
   convertCelsiusToFahrenheit(celsius) {
     this.validateInput(celsius)
-    return celsius * (9/5) + 32
+    const fahrenheit = celsius * (9/5) + 32
+    return parseFloat(fahrenheit.toFixed(2))
   }
 
   /**
@@ -35,7 +36,8 @@ export default class TemperatureConverter {
    */
   convertFahrenheitToCelsius(fahrenheit) {
     this.validateInput(fahrenheit)
-    return (fahrenheit - 32) * (5/9)
+    const celsius = (fahrenheit - 32) * (5/9)
+    return parseFloat(celsius.toFixed(2))
   }
 
 }

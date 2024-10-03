@@ -9,7 +9,7 @@ describe('TemperatureConverter class', () => {
   test('convertCelsiusToFahrenheit method should convert 0 degrees celsius to 32 degrees fahrenheit', () => {
     expect(temperatureConverter.convertCelsiusToFahrenheit(0)).toBe(32)
   })
-  test('convertFahrenheitToCelsius method should convert 32 degrees fahrenheit to 0 degrees celsius', () => {
-    expect(temperatureConverter.convertFahrenheitToCelsius(32)).toBe(0)
+  test('convertFahrenheitToCelsius method should convert 133 degrees fahrenheit to 56.11 degrees celsius', () => {
+    expect(temperatureConverter.convertFahrenheitToCelsius(133)).toBe(56.11)
   })
 })

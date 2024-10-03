@@ -23,7 +23,8 @@ export default class WeightConverter {
    */
   convertKgToLbs(kg) {
     this.validateInput(kg)
-    return kg * 2.20462
+    const lbs =  kg * 2.20462
+    return parseFloat(lbs.toFixed(2))
   }
 
   /**
@@ -35,6 +36,7 @@ export default class WeightConverter {
    */
   convertLbsToKg(lbs) {
     this.validateInput(lbs)
-    return lbs / 2.20462
+    const kg = lbs / 2.20462
+    return parseFloat(kg.toFixed(2))
   }
 }
